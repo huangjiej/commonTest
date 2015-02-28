@@ -18,7 +18,7 @@ import com.hummingbird.common.util.SpringBeanUtil;
  * 2014年12月2日 上午12:39:40
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:applicationContext.xml","classpath:dataSource.xml","classpath:spring-scheduler.xml"}) 
+@ContextConfiguration({"classpath:applicationContext.xml","classpath:dataSource.xml"}) 
 public class BaseTestService  extends AbstractTransactionalJUnit4SpringContextTests {
 
 	@Before
